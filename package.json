@@ -1,0 +1,27 @@
+{
+  "name": "node-components-test",
+  "version": "0.0.1",
+  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "dependencies": {
+    "express": "git://github.com/visionmedia/express.git",
+    "connect-timeout": "*",
+    "connect-redis": "*",
+    "jade": "*",
+    "stylus": "*"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "publicConfig": {
+    "http_port": 3000,
+    "request_timeout": 10000,
+    "session_secret": "bp2secret",
+    "log_requests": false,
+    "stylus_compress": true,
+    "stylus_debug": true,
+    "stylus_force": false
+  }
+}

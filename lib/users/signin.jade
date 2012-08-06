@@ -1,0 +1,11 @@
+extends ../shared/layout
+
+block content
+  form.form-gateway(action='/signin', method='post')
+    .title-bar
+      h1 Who are you?
+    input.input-text(type='text', name='email')
+    input.input-text(type='password', name='password')
+    p.micro test@dummy.com:bacon
+    .button-bar
+      button.button-submit(type='submit') Sign in
