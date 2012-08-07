@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TESTS=`find lib -name '*.test.js'`
+
+node_modules/.bin/mocha -R list $TESTS

@@ -10,7 +10,8 @@
     "stylus": "*"
   },
   "devDependencies": {
-
+    "mocha": "*",
+    "should": "*"
   },
   "scripts": {
     "start": "node app"
