@@ -1,5 +1,5 @@
 mixin messages()
   ul.flash-messages
-    - messages = getMessages()
+    - var messages = getMessages()
     - each message in messages
       li!= message

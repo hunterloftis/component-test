@@ -11,7 +11,10 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "supertest": "*",
+    "zombie": "*",
+    "fetch": "*"
   },
   "scripts": {
     "start": "node app"
