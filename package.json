@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Hunter Loftis <hunter@hunterloftis.com>",
   "dependencies": {
-    "express": "git://github.com/visionmedia/express.git",
+    "express": "3.0.0rc2",
     "connect-timeout": "*",
     "connect-redis": "*",
     "jade": "*",
