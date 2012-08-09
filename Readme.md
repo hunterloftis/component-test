@@ -5,9 +5,9 @@ A simple app with sign-in and dashboard views.
 ## Concepts
 
 - **Everything is a component** (components live in [lib](component-test/tree/master/lib))
-- **Pyramid testing** (view integrations live in [test](component-test/tree/master/test), model and controller tests live in [lib/{component}/test]([make](component-test/tree/master/lib/users/test))
+- **Pyramid testing** (view integrations live in [test](component-test/tree/master/test), model and controller tests live in [lib/{component}/test](component-test/tree/master/lib/users/test))
 - **[Makefile](component-test/tree/master/Makefile) as entry point** (everything starts with `make`)
-- **Separate code and config** (`config` [is injected](component-test/tree/master/app.js) into `main()`) ...and other 12-factor guidelines
+- **Separate code and config** (`config` [is injected](component-test/tree/master/app.js#L20) into `main()`) ...and other 12-factor guidelines
 
 ## Try it
 
