@@ -8,4 +8,4 @@ open:
 test:
 	scripts/test
 
-.PHONY: start open
+.PHONY: start open test

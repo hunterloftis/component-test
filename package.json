@@ -25,6 +25,7 @@
     "log_requests": false,
     "stylus_compress": true,
     "stylus_debug": true,
-    "stylus_force": false
+    "stylus_force": false,
+    "test": false
   }
 }
