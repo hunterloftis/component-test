@@ -8,19 +8,23 @@ var users = require('./lib/users');
 var dashboard = require('./lib/dashboard');
 var flash = require('./lib/flash');
 
+module.exports = main;
+
 // Decorate express to build our app
-module.exports = function main(config) {
+
+function main(config) {
   var app = express();
 
-  middleware(app, config);
   flash(app);
+  middleware(app, config);
   users(app);
   dashboard(app);
 
   return app;
-};
+}
 
 // Start listening if the app has been started directly
+
 if (require.main === module) {
   balance(function() {
     var config = require('./package.json').publicConfig;

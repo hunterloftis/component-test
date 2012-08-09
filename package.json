@@ -12,9 +12,8 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "supertest": "*",
-    "zombie": "*",
-    "fetch": "*"
+    "zombie": "1.3.1",
+    "superagent": "git://github.com/hunterloftis/superagent.git"
   },
   "scripts": {
     "start": "node app"
