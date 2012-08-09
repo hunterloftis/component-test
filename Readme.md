@@ -12,7 +12,7 @@ A simple app with sign-in and dashboard views.
 ## Try it
 
 ```
-$ git clone git://github.com/skookum/component-test.git
+$ git clone git://github.com/Skookum/component-test.git
 $ cd component-test
 $ make setup
 $ make test
