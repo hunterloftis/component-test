@@ -1,9 +1,13 @@
 # Express App - Components
 
-A simple app with sign-in and dashboard views. Demonstrating concepts:
-- Everything is a component (components live in `lib`)
-- Pyramid testing (view integrations live in `test`, model and controller tests live in `lib/*/test`)
-- Makefile as entry point (everything starts with `make`)
+A simple app with sign-in and dashboard views.
+
+## Concepts
+
+- **Everything is a component** (components live in `lib`)
+- **Pyramid testing** (view integrations live in `test`, model and controller tests live in `lib/{component}/test`)
+- **Makefile as entry point** (everything starts with `make`)
+- **Separate code and config** (`config` is injected into `main()`) ...and other 12-factor guidelines
 
 ## Try it
 
